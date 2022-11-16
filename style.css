@@ -105,11 +105,15 @@ input[type="checkbox"]{
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 90vh;
+  height: 100vh;
+  background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.5) ), url(images/osho3.jpg);
+  background-position: center;
+  background-size: cover;
 }
-.content div{
-  font-size: 40px;
+.content h2{
+  font-size: 20px;
   font-weight: 500;
+  color: white;
 }
 
 .footer{

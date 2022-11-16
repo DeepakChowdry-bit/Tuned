@@ -119,11 +119,13 @@ input[type="checkbox"]{
 }
 
 .content .sec{
-    padding: 20px 100px;
+    padding: 20px 60px;
+    
 }
 
 .content .sec a{
     text-decoration: none;
+    
 }
 
 .content .sec .lists{
@@ -131,6 +133,7 @@ input[type="checkbox"]{
     box-shadow: 2px 2px 10px 1px rgba(0,0,0,0.2);
     padding: 10px 0;
     margin: 30px 0;
+    border-radius: 10px;
 }
 
 .content .sec .lists img{
@@ -169,7 +172,7 @@ input[type="checkbox"]{
 
 @media (max-width: 920px) {
     .content .sec{
-        padding: 0 40px;
+        padding: 0 20px;
     }
     .content .sec .lists{
         display: block;
@@ -179,3 +182,16 @@ input[type="checkbox"]{
     }
 }
 
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 2px 2px 10px 1px rgba(0, 0, 0, 0.2);
+}
+
+.footer h3 {
+  font-size: 12px;
+  font-weight: 400;
+  padding: 24px;
+  color: #000;
+}
